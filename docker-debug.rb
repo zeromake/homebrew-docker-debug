@@ -1,7 +1,7 @@
 require "formula"
 
 REPOSITORY_URL='https://github.com/zeromake/docker-debug'
-HOMEBREW_GIT_VERSION='v0.4.0'
+HOMEBREW_GIT_VERSION='v0.5.0'
 
 class DockerDebug < Formula
   desc "debug docker container"
