@@ -7,7 +7,7 @@ class DockerDebug < Formula
   desc "debug docker container"
   homepage "#{REPOSITORY_URL}"
   url "#{REPOSITORY_URL}/releases/download/#{HOMEBREW_GIT_VERSION}/docker-debug-darwin-amd64"
-  sha256 "c8d213fa25b97a40b28fcd747da1f1bac034ffe2f28b6bf8c3ef1d8989d4302c"
+  sha256 "bf4bbcdf500c7e6bd0b15d196909a80af82c18359fbfa4e2e172933b6a92bb3e"
   head "#{REPOSITORY_URL}.git"
   version "#{HOMEBREW_GIT_VERSION}"
 
