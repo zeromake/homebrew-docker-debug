@@ -17,6 +17,7 @@ class DockerDebug < Formula
   version "#{HOMEBREW_GIT_VERSION}"
 
   def install
+    arch = Hardware::CPU.intel? ? "amd64" : "arm64"
     system "mv", "docker-debug-darwin-#{arch}", "docker-debug"
     bin.install "docker-debug"
   end
